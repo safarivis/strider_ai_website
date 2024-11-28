@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "strider_ai",
+  name: "strijder_ai",
   links: {
     github: "https://github.com/strider-ai",
     twitter: "https://twitter.com/strider_ai",

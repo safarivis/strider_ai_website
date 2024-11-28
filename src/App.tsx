@@ -19,13 +19,13 @@ function HomePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-12 mt-32 w-full max-w-xl"
+          className="text-center mb-12 mt-48 w-full max-w-xl"
         >
           <motion.h1
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="text-5xl md:text-7xl font-medium tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/80"
+            className="text-6xl md:text-8xl font-medium tracking-tight mb-4 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/80 leading-relaxed pb-4"
           >
             {siteConfig.name}
           </motion.h1>
@@ -35,7 +35,7 @@ function HomePage() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          className="w-full max-w-xl mt-auto mb-8"
+          className="w-full max-w-xl mt-auto mb-8 hidden"
         >
           <ChatInterface />
         </motion.div>
